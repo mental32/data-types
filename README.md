@@ -2,30 +2,30 @@
 
 # Index
 ## Primitive types
- - [Boolean](##boolean)
- - [Character](##character)
- - [Floating-point numbers](##floating-point-numbers)
- - [Fixed-point numbers](##fixed-point-numbers)
- - [Integers](##integers)
- - [Refrence](##refrence)
- - [Enumerated type](##enumerated-type)
+ - [Boolean](#boolean)
+ - [Character](#character)
+ - [Floating-point numbers](#floating-point-numbers)
+ - [Fixed-point numbers](#fixed-point-numbers)
+ - [Integers](#integers)
+ - [Refrence](#refrence)
+ - [Enumerated type](#enumerated-type)
 
 ## Composite types
- - [Array](##array)
- - [Record](##record)
- - [Union](##union)
+ - [Array](#array)
+ - [Record](#record)
+ - [Union](#union)
 
 ## Abstract data types
- - [Container](##container)
- - [List](##list)
- - [Tuple](##tuple)
- - [Multimap](##multimap)
- - [Set](##set)
- - [Multiset](##multiset)
- - [Stack](##stack)
- - [Queue](##queue)
- - [Double ended Queue](##double-ended-queue)
- - [Graph](##graph)
+ - [Container](#container)
+ - [List](#list)
+ - [Tuple](#tuple)
+ - [Multimap](#multimap)
+ - [Set](#set)
+ - [Multiset](#multiset)
+ - [Stack](#stack)
+ - [Queue](#queue)
+ - [Double ended Queue](#double-ended-queue)
+ - [Graph](#graph)
 
 | Structure         | order | unique |
 |-------------------|-------|--------|
