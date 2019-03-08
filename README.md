@@ -263,6 +263,8 @@
 
 # Examples
 
+# Primitive types
+
 ## Boolean
 
 The Boolean data type represents one of two values, typically denoted as "true" and "false", intended to represent the two truth values of logic and boolean algebra. In theory you only need one "bit" to represent a boolean data type in practice this doesn't work quite well since the smallest registers avaliable on modern processors may only carry 8 or 4 bits
@@ -286,7 +288,27 @@ Since Unicode requires at least 21 bits to store a single code point, it's impos
 
 ## Integers
 
+## Refrence
+
 ## Enumerated type
+
+# Composite type
+
+## Array
+
+## Record
+
+## Union
+
+# Abstract types
+
+## Container
+
+## List
+
+## Tuple
+
+## Multimap
 
 ## Set
 
