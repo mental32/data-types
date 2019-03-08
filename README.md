@@ -263,15 +263,39 @@
 
 # Examples
 
-##Boolean
-##Character
-##Floating-point numbers
-##Fixed-point numbers
-##Integers
-##Enumerated type
-##Set
-##Multiset
-##Stack
-##Queue
-##Double ended Queue
-##Graph
+## Boolean
+
+The Boolean data type represents one of two values, typically denoted as "true" and "false", intended to represent the two truth values of logic and boolean algebra. In theory you only need one "bit" to represent a boolean data type in practice this doesn't work quite well since the smallest registers avaliable on modern processors may only carry 8 or 4 bits
+
+## Character
+
+A character data type represents a unit of information that roughly corresponds to a grapheme in natural language. Examples of characters include letters, numerical digits, common punctuation marks, and whitespace. The concept also includes control characters.
+
+*wikipedia*
+>The ISO/IEC 10646 (Unicode) International Standard defines character, or abstract character as "a member of a set of elements used for the organisation, control, or representation of data".
+
+### char
+
+A `char` in the C programming language is a data type with exactly one byte, the POSIX standard requirest it to be 8 bits.
+
+Since Unicode requires at least 21 bits to store a single code point, it's impossible to store one inside a regular `char`, due to this Unicode can be stored in "wide characters" the original C type was called `wchar_t`. Due to some platforms defining `wchar_t` as 16 bits and others defining it as 32 bits, recent versions have added `char16_t`, `char32_t`. Even then the objects being stored might not be characters, for instance the variable-length UTF-16 is often stored in arrays of `char16_t`. 
+
+## Floating-point numbers
+
+## Fixed-point numbers
+
+## Integers
+
+## Enumerated type
+
+## Set
+
+## Multiset
+
+## Stack
+
+## Queue
+
+## Double ended Queue
+
+## Graph
