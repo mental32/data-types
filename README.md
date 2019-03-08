@@ -267,7 +267,9 @@
 
 ## Boolean
 
-The Boolean data type represents one of two values, typically denoted as "true" and "false", intended to represent the two truth values of logic and boolean algebra. In theory you only need one "bit" to represent a boolean data type in practice this doesn't work quite well since the smallest registers avaliable on modern processors may only carry 8 or 4 bits
+The Boolean data type represents one of two values, typically denoted as "true" and "false", intended to represent the two truth values of logic and boolean algebra. In theory you only need one "bit" to represent a boolean data type in practice this doesn't work quite well since the smallest registers avaliable on modern processors can only carry 8 or 4 bits
+
+Booleans have become explicity represented in most "modern" languages through the use of a keyword, which may or may not be reserved by the language. In Python (since 2.3) the language reserves the words `True` and `False` to represent the two instances of a boolean, and there is `bool` which is the base class for a Boolean, C++ and a majority of other languages use the lowercase alternatives `true` and `false` where `false = 0` and `true = !false`.
 
 ## Character
 
